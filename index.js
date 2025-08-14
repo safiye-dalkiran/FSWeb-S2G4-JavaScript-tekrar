@@ -67,9 +67,11 @@ console.log(CemberinCevresi(5))
   4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(/* kodlar buraya */) {
-
+function CemberinAlani(r) {
+  return pi * r * r;
 }
+
+console.log(CemberinAlani(15));
 
 
 
