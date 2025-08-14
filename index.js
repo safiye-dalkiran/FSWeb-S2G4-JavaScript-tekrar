@@ -67,11 +67,10 @@ console.log(CemberinCevresi(5))
   4. Hesaplanan çemberin alanı döndürülecektir.
 */
 
-function CemberinAlani(r) {
-  return pi * r * r;
-}
+function CemberinAlani(/* kodlar buraya */) {
 
-console.log(CemberinAlani(15));
+
+}
 
 
 
@@ -104,50 +103,30 @@ let ucetambolunenler,
   besyuzdenkucuksayilar,
   siralisayilar,
   tekraredensayilar;
-// 3a çözümü 
-// /* kodlar buraya */ 
-enkucuk = sayilar[0];
-enbuyuk = sayilar[0];
-for (let i = 0; i < sayilar.length; i++) {
-  if (sayilar[i] < enkucuk) {
-    enkucuk = sayilar[i]
-  }
-  if (sayilar[i] > enbuyuk) { enbuyuk = sayilar[i] }
-}
-console.log(enkucuk)
-console.log(enbuyuk)
-// 3b çözümü: 
-// /* kodlar buraya */
-ucetambolunenler = []
-sayilar.forEach((sayi) => {
-  if (sayi % 3 === 0) {
-    ucetambolunenler.push(sayi)
-  }
-})
-console.log(ucetambolunenler)
+
+// 3a çözümü
+
+/* kodlar buraya */
+
+// 3b çözümü:
+
+/* kodlar buraya */
+
 // 3c çözümü:
-//  /* kodlar buraya */ 
-ucebolunenlerintoplami = ucetambolunenler.reduce((topla, yeni) => topla + yeni, 0)
-console.log(ucebolunenlerintoplami)
+
+/* kodlar buraya */
+
 // 3d çözümü
-//  /* kodlar buraya */ 
-besyuzdenkucuksayilar = ucetambolunenler.filter((sayi) => sayi < 500)
-console.log(besyuzdenkucuksayilar)
-// 3e çözümü 
-// /* kodlar buraya */
-siralisayilar = besyuzdenkucuksayilar.sort((a, b) => a - b)
-console.log(siralisayilar)
+
+/* kodlar buraya */
+
+// 3e çözümü
+
+/* kodlar buraya */
+
 // 3f çözümü
-//  /* kodlar buraya */ 
-tekraredensayilar = [];
-for (let i = 0; i < sayilar.length; i++) {
-  for (let j = 0; j < sayilar.length; j++) {
-    if (i !== j && sayilar[i] === sayilar[j] && !tekraredensayilar.includes(sayilar[i])) {
-      tekraredensayilar.push(sayilar[i])
-    }
-  }
-}
-console.log(tekraredensayilar)
+
+/* kodlar buraya */
 
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
